@@ -161,10 +161,10 @@ nav ul a:hover::after{
     position: relative;
     overflow: hidden;
 }
-.work img{
-    width: 100%;
-    transition: transform 0.5s;
-    border-radius: 10px;
+.work img {
+    width: 100%;   /* Change to your desired width */
+    height: auto;   /* Maintains aspect ratio */
+    object-fit: cover; /* Optional: crops image to fit if needed */
 }
 .container ul li{
     list-style: none;
